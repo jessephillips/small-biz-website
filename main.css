@@ -1,0 +1,234 @@
+body {
+	background-color: #222;
+	color: #fff;
+	font: normal 12px/16px Helvetica, Arial, sans-serif;
+}
+
+h2, h3, h4 {
+	color: #00aeef;
+}
+
+h2 {
+	font: 700 32px/33px Helvetica, Arial, sans-serif;
+	text-align: right;
+	margin-top: -5px;	
+}
+
+h3 {
+	font: 700 26px/30px Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.container400 {
+	width: 400px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.hidetext {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* =======================================
+   Columns
+   ======================================= */
+
+.col1, .col2, .col3 {
+	float: left;
+	position: relative;
+}
+
+.col1 {
+	width: 260px;
+	padding-right: 25px;
+}
+
+.col2 {
+	width: 400px;
+	padding-right: 25px;
+}
+
+.col3 {
+	width: 260px;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/* ========= header ========= */
+header {
+}
+
+h1#logo {
+	background: url('images/logo3.png') 2px 0 no-repeat;
+	display: block;
+	height: 85px;
+	margin: 40px 0;
+}
+
+nav {
+	position: absolute;
+	top: -22px;
+	left: 0px;
+}
+
+ul li {
+	float: left;
+	padding-right: 20px;
+}
+
+a, a:hover, a:visited {
+	color: #a7a9ac;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+a:hover {
+	color: #00aeef;
+}
+
+.phone-number h2 {
+	color: #fff;
+	font: 700 28px/40px "Gotham", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: right;
+}
+
+.phone-number {
+	margin-top: 60px;
+	text-align: right;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+	color: #a7a9ac;
+}
+
+/* ============= middle ============= */
+
+/* ==== col 1 ===== */
+
+p.hype {
+	text-align: right;
+	color: #a7a9ac;
+}
+
+
+/* ==== form ==== */
+form {
+	text-align: right;
+	padding-top: 25px
+}
+
+label {
+	font-weight: 700;
+	font-size: 14px;
+	color: #00aeef;
+}
+
+input[type="email"] {
+	width: 240px;
+	background-color: #a7a9ac;
+	margin: 5px 0;
+	padding: 10px;
+	border: none;
+	box-shadow: none;
+	font-weight: 700;
+	color: #333;
+	font-size: 14px;
+	text-align: right;
+}
+
+input[type="submit"] {
+	background-color: #00aeef;
+	margin: 5px 0;
+	padding: 10px;
+	border: none;
+	box-shadow: none;
+	font-weight: 700;
+	color: #fff;
+	font-size: 14px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #666;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #666;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #666;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #666;
+}
+
+/* ====== pics ======== */
+
+img.col2-img {
+	border: 1px solid #000;
+	margin-bottom: 25px;
+}
+
+img.col3-img {
+	border: 1px solid #000;
+	margin-bottom: 18px;
+}
+
+/* ======= bottom text ======== */
+
+.col2 p {
+	color: #a7a9ac;
+	margin-bottom:20px;
+}
+
+.spacer100 {
+	height: 80px;
+}
+
+footer {
+	background-color: #000;
+	color: #555;
+	position: relative;
+}
+
+.container400 li{
+	margin-top: 20px;
+}
+
+footer .container400 a {
+	color: #555;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
